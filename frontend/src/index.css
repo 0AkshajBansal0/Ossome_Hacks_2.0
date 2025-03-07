@@ -12,29 +12,50 @@ code {
     monospace;
 }
 
-.nav-link{
+.nav-link {
   margin-left: 40px;
 }
 
-#supportHero{
-  background-color: rgb(56, 126, 209);
+/* Footer */
+.increase-font {
+  font-size: 18px;
+}
+
+#supportHero {
+  background-color: #387ED1;
   color: white;
 }
 
-#supportHero a{
-  color: white;
-}
-
-#supportWrapper{
+#supportWrapper {
   display: flex;
   justify-content: space-between;
   margin: 0 150px;
 }
 
-#supportHero input{
-  padding: 20px 50px;
-  width: 100%;
-  font-size: 20px;
-  border-radius: 10px;
+#supportWrapper a {
+  font-size: 18px;
+}
+
+#supportHero a {
+  font-size: 18px;
+  color: white;
+}
+
+#supportHero input {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 15px 40px;
+  width: 80%;
+  font-size: 18px;
+  border-radius: 5px;
   border: none;
+}
+
+.extra-margin {
+  margin-top: 7.75rem;
+}
+
+.signup-page-style {
+  color: gray;
+  font-size: 1.1rem;
 }
